@@ -1,3 +1,6 @@
+using Pkg
+Pkg.instantiate()
+
 @time using Snowflake
 
 println("This example creates a circuit to generate a Bell state.")
